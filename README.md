@@ -31,10 +31,10 @@ This is a testament to the effectiveness of the techniques and strategies we'll 
 ### Final Epoch Log
 In the last epoch of training, our model achieved the following results:
 
-Training Loss: 0.0186
-Training Accuracy: 99.41%
-Validation Loss: 0.0167
-Validation Accuracy: 99.51%
+- Training Loss: 0.0186
+- Training Accuracy: 99.41%
+- Validation Loss: 0.0167
+- Validation Accuracy: 99.51%
 
 These statistics reflect the robustness of our convolutional neural network (CNN) architecture and the effectiveness of the training process. As we proceed through the notebook, you'll gain insights into how we built and fine-tuned this model to achieve such remarkable accuracy.
 
