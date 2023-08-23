@@ -20,11 +20,11 @@ In this project, we leverage the MNIST dataset to train our CNN to accurately re
 
 Before we dive into the notebook's structure, let's celebrate our accomplishments. In the Digit Recognizer Kaggle competition, our model has demonstrated exceptional performance, ranking in the top 9% of participants: 
 
-![BF52755D-091B-4B75-A64E-18566E06BAC7_4_5005_c](https://github.com/gabriel-nds/CNN_for_Digit_Recognizer/assets/118403829/c9611efa-4131-49b3-ba8f-b5843ef630ed)
+![64F9D1E5-5EB5-4F8D-B422-5AE9534FA87E_4_5005_c](https://github.com/gabriel-nds/CNN_for_Digit_Recognizer/assets/118403829/3a0061cc-918f-431c-a900-8110c2b69520)
 
 On Kaggle we got a score of **99.49%**!
 
-![2324EF29-9654-4CA6-ABC7-B7F588B5428F_4_5005_c](https://github.com/gabriel-nds/CNN_for_Digit_Recognizer/assets/118403829/431ab300-2ae5-445f-b545-2f73c264390f)
+![3FEA9AE4-B073-408A-9957-554C8FF4B9A9](https://github.com/gabriel-nds/CNN_for_Digit_Recognizer/assets/118403829/78004796-b207-41cd-9751-3a7e87fd8f96)
 
 This is a testament to the effectiveness of the techniques and strategies we'll explore in this notebook.
 
