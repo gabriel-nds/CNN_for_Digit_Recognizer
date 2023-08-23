@@ -18,11 +18,11 @@ In this project, we leverage the MNIST dataset to train our CNN to accurately re
 
 ## Model Performance on Kaggle Competition
 
-Before we dive into the notebook's structure, let's celebrate our accomplishments. In the Digit Recognizer Kaggle competition, our model has demonstrated exceptional performance, ranking in the top 11% of participants: 
+Before we dive into the notebook's structure, let's celebrate our accomplishments. In the Digit Recognizer Kaggle competition, our model has demonstrated exceptional performance, ranking in the top 9% of participants: 
 
 ![BF52755D-091B-4B75-A64E-18566E06BAC7_4_5005_c](https://github.com/gabriel-nds/CNN_for_Digit_Recognizer/assets/118403829/c9611efa-4131-49b3-ba8f-b5843ef630ed)
 
-On Kaggle we got a score of **99.43%**!
+On Kaggle we got a score of **99.49%**!
 
 ![2324EF29-9654-4CA6-ABC7-B7F588B5428F_4_5005_c](https://github.com/gabriel-nds/CNN_for_Digit_Recognizer/assets/118403829/431ab300-2ae5-445f-b545-2f73c264390f)
 
@@ -31,10 +31,10 @@ This is a testament to the effectiveness of the techniques and strategies we'll 
 ### Final Epoch Log
 In the last epoch of training, our model achieved the following results:
 
-- Training Loss: 0.0186
-- Training Accuracy: 99.41%
-- Validation Loss: 0.0167
-- Validation Accuracy: 99.51%
+- Training Loss: 0.0126
+- Training Accuracy: 99.60%
+- Validation Loss: 0.0134
+- Validation Accuracy: 99.60%
 
 These statistics reflect the robustness of our convolutional neural network (CNN) architecture and the effectiveness of the training process. As we proceed through the notebook, you'll gain insights into how we built and fine-tuned this model to achieve such remarkable accuracy.
 
@@ -54,7 +54,8 @@ This notebook is organized into sections, each focusing on a specific aspect of 
 8. Learning Rate Annealing with ReduceLROnPlateau: We implement learning rate annealing using the ReduceLROnPlateau callback. The learning rate is adjusted based on validation loss and patience parameters.
 9. Train the Model: The model is trained using the training data and validated using the validation set. The training process is monitored and improved using the callbacks we defined earlier.
 10. Visualize Training and Validation Metrics: We visualize the training and validation accuracy and loss using matplotlib.
-11. Make Predictions and Create Submission: Finally, we use the trained model to make predictions on the test dataset and create a submission file for the competition.
+11. Evaluating the Model: We assess the model's performance by visually examining a sample of validation set predictions and comparing them against real labels. Additionally, we compute a confusion matrix to gain insights into classification trends and identify areas of improvement. The percentage of incorrect predictions is calculated for overall assessment.
+12. Create Submission: Finally, we use the trained model to make predictions on the test dataset and create a submission file for the competition.
 
 ---
 
