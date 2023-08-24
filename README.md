@@ -16,6 +16,42 @@ Here's a glimpse of what the MNIST dataset contains:
 
 In this project, we leverage the MNIST dataset to train our CNN to accurately recognize and classify these handwritten digits. Through this project, we'll guide you through the entire pipeline, from loading and preprocessing the dataset to training and evaluating the neural network. The final result will be a trained model that can identify handwritten digits with impressive accuracy. Whether you're new to neural networks or looking to strengthen your skills, this project will provide valuable insights into image classification and CNNs. Let's dive in and explore the fascinating world of digit recognition!
 
+## Instructions to Run the Code
+
+To run this code and replicate the experiments, follow these steps:
+
+1. Clone the Repository:
+      
+   ```bash
+   git clone https://github.com/gabriel-nds/CNN_for_Digit_Recognizer.git
+
+2. Create and Activate a Virtual Environment:
+
+    Create a virtual environment (recommended) and activate it. This helps isolate the        project's dependencies from your global Python environment:
+
+   ```bash
+   python -m venv venv
+   source venv/bin/activate    # On Windows, use "venv\Scripts\activate"
+
+3. Install Dependencies:
+
+   Navigate to the project directory and install the required dependencies using the requirements.txt file:
+
+   ```bash
+   pip install -r requirements.txt
+
+4. Run the Code:
+
+   Open the digit.ipynb Jupyter Notebook in your preferred environment and execute the code cells. This notebook contains the code for training the model and evaluating its performance.
+
+5. View Results:
+
+   After executing the code cells in the digit.ipynb notebook, you'll see visualizations and printed results within the notebook itself. This includes insights about the model's predictions, a confusion matrix, and an analysis of incorrect predictions.
+
+6. Experiment and Customize:
+   
+   Feel free to experiment with different hyperparameters, visualization options, and code components within the digit.ipynb notebook to further analyze the model and its performance.
+
 ## Model Performance on Kaggle Competition
 
 Before we dive into the notebook's structure, let's celebrate our accomplishments. In the Digit Recognizer Kaggle competition, our model has demonstrated exceptional performance, ranking in the top 9% of participants: 
